@@ -15,7 +15,6 @@ defaulting to src. {% endcomment %}
 full-width images everywhere. Here is a guide:
 https://builtvisible.com/responsive-images-for-busy-people-a-quick-primer/ {% endcomment %}
 <img
-    sizes="auto"
     src="{{ site.baseurl }}/images/{{ image }}.{{ file-extension }}"
     srcset="{{ site.baseurl }}/images/{{ image }}-256.{{ file-extension }} 320w,
     {{ site.baseurl }}/images/{{ image }}-256.{{ file-extension }} 640w,
